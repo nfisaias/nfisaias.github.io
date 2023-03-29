@@ -1,11 +1,16 @@
 body {
     background-color: #eff7f6;
+    padding: 1%;
 }
 #titulo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 #descricao {
     font-family: 'Courier New', Courier, monospace;
+    padding: 8%;
+    margin-left: 25%;
+    text-align: center;
 }
 .pDesc {
     color: #036666;
@@ -27,4 +32,20 @@ em {
 }
 .css {
     font-size: 16px;
+}
+#foto {
+    width: 290px;
+    float: left;
+    padding: 5px;
+    background-color: #003249;
+}
+.image-container {
+    height: 300px;
+    position: relative;
+}
+ul {
+    margin-right: 88%;
+}
+ul li:nth-child(odd) {
+    background-color: #fffafb;
 }
