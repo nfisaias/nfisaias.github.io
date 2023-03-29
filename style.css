@@ -7,3 +7,9 @@ body {
 #descricao {
     font-family: 'Courier New', Courier, monospace;
 }
+.pDesc {
+    color: #036666;
+}
+em {
+    color: #023e8a;
+  }
